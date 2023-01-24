@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffdd00">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Borrow Book List"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center">
+    </TextView>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:padding="16dp"
+        android:background="@color/white">
+        <TableRow>
+            <TextView
+                android:text="Borrower Name:   "/>
+            <EditText
+                android:id="@+id/borName"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:inputType="textPersonName"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Book Name:"/>
+            <EditText
+                android:inputType="text"
+                android:id="@+id/bookName"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="15dp" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="Borrow Date:"/>
+            <EditText
+                android:id="@+id/borDate"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:inputType="datetime"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Return Date:"/>
+            <EditText
+                android:id="@+id/retDate"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:inputType="datetime"/>
+        </TableRow>
+    </TableLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:layout_height="match_parent"
+            android:text="Cancel"
+            android:backgroundTint="#ffdd00"
+            android:textColor="#000000"/>
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_gravity="center_vertical"
+            android:background="@color/black"
+            android:layout_height="40dp"/>
+        <Button
+            android:id="@+id/save"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="Save"
+            android:textSize="20sp"
+            android:backgroundTint="#ffdd00"
+            android:textColor="#000000"/>
+    </LinearLayout>
+</LinearLayout>

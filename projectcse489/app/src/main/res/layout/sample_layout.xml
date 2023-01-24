@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#354665"
+    android:padding="10dp"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Book List"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="#2E5373"
+        android:textSize="35sp"/>
+    <TextView
+        android:background="#0E67B5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:id="@+id/Name"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        />
+    <TextView
+        android:background="#0E67B5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:id="@+id/auth"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+
+        />
+    <TextView
+        android:background="#0E67B5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:id="@+id/edition"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+
+        />
+
+    <TextView
+        android:background="#0E67B5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:id="@+id/genre"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+
+        />
+
+    <TextView
+        android:background="#0E67B5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:id="@+id/shelf"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+
+        />
+    <TextView
+        android:background="#0E67B5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:id="@+id/copy"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+
+        />
+    <TextView
+        android:background="#0E67B5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:id="@+id/Type"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+
+        />
+    <TextView
+        android:background="#0E67B5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+       android:text="END"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+
+        />
+
+
+</LinearLayout>

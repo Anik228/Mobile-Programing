@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#354665"
+    android:padding="10dp"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Borrow Book List"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:id="@+id/view"
+        android:gravity="center"
+        android:background="#2E5373"
+        android:textSize="35sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:id="@+id/Name"
+        android:background="#0E67B5"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:text="Book Name"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:id="@+id/stdn"
+        android:background="#0E67B5"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:text="student Name"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:id="@+id/stdid"
+        android:background="#0E67B5"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:text="student ID"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:id="@+id/date"
+        android:background="#0E67B5"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:text="Genre"
+        />
+
+</LinearLayout>

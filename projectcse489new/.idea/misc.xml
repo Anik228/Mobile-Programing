@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/USER/AndroidStudioProjects/projectcse489/app/src/main/res/layout/activity_admin.xml" value="0.25" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/projectcse489/app/src/main/res/layout/activity_details.xml" value="0.1" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/projectcse489/app/src/main/res/layout/activity_main.xml" value="0.12771739130434784" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/projectcse489/app/src/main/res/layout/activity_mainLogin.xml" value="0.12771739130434784" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/projectcse489/app/src/main/res/layout/activity_mainSearchBook.xml" value="0.1" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/projectcse489/app/src/main/res/layout/activity_mainlogin.xml" value="0.15" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/projectcse489/app/src/main/res/layout/activity_searchbook.xml" value="0.25" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/projectcse489/app/src/main/res/layout/adminlogin.xml" value="0.1802536231884058" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/projectcse489/app/src/main/res/layout/borrow_book.xml" value="0.25" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/projectcse489/app/src/main/res/layout/layout_event_row.xml" value="0.22" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/projectcse489/app/src/main/res/layout/sample_layout.xml" value="0.25" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/projectcse489/app/src/main/res/layout/sample_layout1.xml" value="0.2" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/projectcse489/app/src/main/res/layout/upcoming_event.xml" value="0.18" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/projectcse489/app/src/main/res/layout/update.xml" value="0.33" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/projectcse489new/app/src/main/res/layout/activity_searchbook.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
